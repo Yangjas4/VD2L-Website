@@ -1,0 +1,466 @@
+
+@media screen and (max-width: 900px) {
+
+  .valorant-logo {
+    width: 114.47px;
+    height: 90.07px;
+  }
+
+  .desktop-nav-bar {
+    display: none;
+  }
+  
+  .nav-items {
+    justify-content: space-between;
+    padding-left: 28px;
+  }
+
+  .signup-dates {
+    display: flex;
+  }
+  
+  .card {
+    width: 290px;
+    margin: 0 auto;
+    background: rgba(164, 171, 182, 0.04);
+    height: 420px;
+    border-radius: 16.851px;
+  }
+  
+  .card-container {
+    padding-top: 37px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 60px;
+  }
+  
+  .card-header {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .current-season {
+    color: #3EB4E7;
+    font-weight: 400;
+    font-size: 14.5px;
+    margin-top: 20px;
+  }
+  
+  .season-no {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .signup-status {
+    color: white;
+    font-size: 23px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DE7A5B;
+    height: 35px;
+    width: 240px;
+    border-radius: 6.39176px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .signup-button-content {
+    display: flex;
+    font-weight: 400;
+    font-size: 8px;
+    color: white;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .signup-button-text {
+    padding-top: 2px;
+  }
+  
+  .signup-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .date-title {
+    color: white;
+    font-weight: 700;
+    font-size: 14.5px;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    color: white;
+    font-weight: 400;
+    font-size: 14.5px;
+  }
+
+  .dottore-desktop {
+    display: none;
+  }
+
+  .about-container {
+    margin-left: 40px;
+  }
+
+  .about-container > p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .about-title {
+    font-size: 45px;
+    margin-bottom: 25px;
+    width: 60px;
+  }
+
+  .about-paragraph-one {
+    width: 310px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+
+  .about-paragraph-two {
+    width: 285px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .about-paragraph-three {
+    width: 315px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .about-paragraph-four {
+    width: 330px;
+  }
+
+  .gaming {
+    width: 150px;
+    position: absolute;
+    top: 110px;
+    left: 200px;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 900px) {
+
+
+  .hamburger-menu-icon {
+    display: none;
+  }
+
+  .hamburger-menu-sidebar {
+    display: none;
+  }
+
+  .dottore-mobile {
+    display: none;
+  }
+
+  .dottore-desktop {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+  }  
+
+  .nav-items {
+    justify-content: left;
+    padding-left: 140px;
+  }
+
+  .desktop-nav-bar {
+    display: flex;
+    gap: 65px;
+    font-size: 14px;
+    padding-left: 90px;
+    align-items: center;
+  }
+
+
+
+  /* -------------------------
+  ------- Card Styles -------- 
+  ------------------------- */
+
+  .signup-dates {
+    display: flex;
+  }
+
+  .card {
+    width: 500px;
+    margin-top: 40px;
+    position: absolute;
+    left: 900px;
+    background: rgba(164, 171, 182, 0.04);
+    height: 720px;
+    border-radius: 16.851px;
+  }
+  
+  .card-container {
+    padding-top: 65px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 115px;
+  }
+  
+  .card-header {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .current-season {
+    color: #3EB4E7;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  .season-no {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  .signup-status {
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .card-header-text {
+    padding-top: 27px;
+  }
+  
+  .signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DE7A5B;
+    height: 60px;
+    width: 400px;
+    border-radius: 6.39176px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .signup-button-content {
+    display: flex;
+    font-weight: 600;
+    color: white;
+    gap: 7px;
+    justify-content: center;
+  }
+
+  .signup-logo {
+    width: 26px;
+    height: 21px;
+  }
+  
+  .signup-button-text {
+    padding-top: 1px;
+  }
+  
+  .signup-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .date-title {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .nav-item:hover {
+    font-weight: 700;
+  }
+
+  .nav-item > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* -------------------------
+  ------- About Page -------- 
+  ------------------------- */
+
+  .about-container {
+    margin-top: 190px;
+    margin-left: 150px;
+  }
+
+  .about-title {
+    font-size: 50px;
+    width: 335px;
+    margin-bottom: 30px;
+  }
+
+  .about-paragraph-one {
+    width: 420px;
+    margin-bottom: 20px;
+  }
+
+  .about-paragraph-two {
+    width: 855px;
+    margin-bottom: 20px;
+  }
+
+  .about-paragraph-three {
+    width: 840px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .about-paragraph-four {
+    font-weight: 700;
+  }
+
+  .gaming {
+    position: absolute;
+    top: 150px;
+    left: 720px;
+  }
+}
+
+
+
+
+.navbar {
+  color: white;
+}
+
+.landing-page {
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+.top-blue-header {
+  height: 5px;
+  width: 100%;
+  background-color: #3A7BBC;
+}
+
+.vd2l-text-logo > a{
+  color: white;
+  text-decoration: none;
+  font-family: 'inter';
+  font-weight: 900;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+nav > p {
+  cursor: pointer;
+}
+
+.nav-items {
+  padding-top: 28px;
+  padding-right: 28px;
+  padding-bottom: 23px;
+  display: flex;
+
+}
+
+.hamburger-menu-icon {
+  cursor: pointer;
+}
+
+.hamburger-menu-sidebar {
+  position: fixed;
+  left: 60%;
+  top: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #3A7BBC;
+}
+
+.hamburger-menu-sidebar > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.x-button {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+footer {
+  background: rgba(217, 217, 217, 0.17);
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #151428;
+}
+
+.nav-item > a {
+  text-decoration: none;
+  color: white;
+}
+
+.dottore-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.red {
+  color: #FF3767;
+}
+
+.about-title {
+  color: #85DDFA;
+  font-weight: 600;
+}
+
+.about-container > p {
+  color: white;
+}
+
+.discord {
+  text-decoration: underline;
+  color: #4159D9;
+  cursor: pointer;
+}
