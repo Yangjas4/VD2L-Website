@@ -31,7 +31,7 @@ export default function Landing() {
 						<div className="card-body">
 							<h1 className="signup-status">
 								Signups are currently{" "}
-								<span className="red">OPEN</span>
+								<span className="red">CLOSED</span>
 							</h1>
 							<motion.div className="signup-button" whileHover={{ scale: 1.1 }}>
 								<div className="signup-button-content">
