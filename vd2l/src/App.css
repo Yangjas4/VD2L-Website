@@ -593,7 +593,7 @@ td {
 
 .signups-closed {
   margin-top: 200px;
-	color: red;
+	color: #ff3767;
 	font-size: 40px;
 	font-weight: 700;
   text-align: center;
@@ -604,4 +604,8 @@ td {
   text-align: center;
   margin-left: 60px; 
   margin-right: 60px;
+}
+
+.signup-button-text {
+  text-decoration: none;
 }

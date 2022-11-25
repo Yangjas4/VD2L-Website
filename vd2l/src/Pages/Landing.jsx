@@ -6,12 +6,9 @@ import DottoreDesktop from "../assets/DottoreDesktop.svg";
 import DottoreMobile from "../assets/DottoreMobile.svg";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
-
-	const click = () => {
-		alert("click");
-	}
 
 	return (
 		<div className="landing-page">
@@ -39,7 +36,8 @@ export default function Landing() {
 								Signups are currently{" "}
 								<span className="red">CLOSED</span>
 							</h1>
-							<motion.div className="signup-button" whileHover={{ scale: 1.1 }} onClick={click}>
+							<motion.div className="signup-button" whileHover={{ scale: 1.1 }}>
+								<Link to="/signup">
 								<div className="signup-button-content">
 									<p className="signup-button-text">
 										Sign Up
@@ -50,6 +48,7 @@ export default function Landing() {
 											className="signup-logo"
 										/>
 								</div>
+								</Link>
 							</motion.div>
 							<div className="signup-dates">
 								<div className="start-date">
