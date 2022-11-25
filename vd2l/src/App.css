@@ -1,466 +1,571 @@
-
 @media screen and (max-width: 900px) {
+	.valorant-logo {
+		width: 114.47px;
+		height: 90.07px;
+	}
 
-  .valorant-logo {
-    width: 114.47px;
-    height: 90.07px;
-  }
+	.desktop-nav-bar {
+		display: none;
+	}
 
-  .desktop-nav-bar {
-    display: none;
-  }
-  
-  .nav-items {
-    justify-content: space-between;
-    padding-left: 28px;
-  }
+	.nav-items {
+		justify-content: space-between;
+		padding-left: 28px;
+	}
 
-  .signup-dates {
-    display: flex;
-  }
-  
-  .card {
-    width: 290px;
-    margin: 0 auto;
-    background: rgba(164, 171, 182, 0.04);
-    height: 420px;
-    border-radius: 16.851px;
-  }
-  
-  .card-container {
-    padding-top: 37px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 60px;
-  }
-  
-  .card-header {
-    display: flex;
-    margin: 0 auto;
-  }
-  
-  .current-season {
-    color: #3EB4E7;
-    font-weight: 400;
-    font-size: 14.5px;
+	.signup-dates {
+		display: flex;
+	}
+
+	.card {
+		width: 290px;
+		margin: 0 auto;
+		background: rgba(164, 171, 182, 0.04);
+		height: 420px;
+		border-radius: 16.851px;
+	}
+
+	.card-container {
+		padding-top: 37px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 60px;
+	}
+
+	.card-header {
+		display: flex;
+		margin: 0 auto;
+	}
+
+	.current-season {
+		color: #3eb4e7;
+		font-weight: 400;
+		font-size: 14.5px;
+		margin-top: 20px;
+	}
+
+	.season-no {
+		color: white;
+		font-size: 26px;
+		font-weight: 700;
+	}
+
+	.signup-status {
+		color: white;
+		font-size: 23px;
+		width: 150px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 35px;
+	}
+
+	.signup-button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #de7a5b;
+		height: 35px;
+		width: 240px;
+		border-radius: 6.39176px;
+		margin-bottom: 10px;
+		cursor: pointer;
+	}
+
+	.signup-button-content {
+		display: flex;
+		font-weight: 400;
+		font-size: 8px;
+		color: white;
+		gap: 5px;
+		justify-content: center;
+	}
+
+	.signup-button-text {
+		padding-top: 2px;
+	}
+
+	.signup-dates {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.date-title {
+		color: white;
+		font-weight: 700;
+		font-size: 14.5px;
+		margin-bottom: 5px;
+	}
+
+	.date {
+		color: white;
+		font-weight: 400;
+		font-size: 14.5px;
+	}
+
+	.dottore-desktop {
+		display: none;
+	}
+
+	.about-container {
+		margin-left: 40px;
+	}
+
+	.about-container > p {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.about-title {
+		font-size: 45px;
+		margin-bottom: 25px;
+		width: 60px;
+	}
+
+	.about-paragraph-one {
+		width: 310px;
+		font-weight: 400;
+		margin-bottom: 25px;
+	}
+
+	.about-paragraph-two {
+		width: 285px;
+		font-weight: 400;
+		margin-bottom: 10px;
+	}
+
+	.about-paragraph-three {
+		width: 315px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	.about-paragraph-four {
+		width: 330px;
+	}
+
+	.gaming {
+		width: 150px;
+		position: absolute;
+		top: 110px;
+		left: 200px;
+	}
+
+  .table-container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+  .season-header {
+    margin-left: 20px;
     margin-top: 20px;
-  }
-  
-  .season-no {
-    color: white;
-    font-size: 26px;
-    font-weight: 700;
-  }
-  
-  .signup-status {
-    color: white;
-    font-size: 23px;
-    width: 150px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 35px;
-  }
-
-  .signup-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #DE7A5B;
-    height: 35px;
-    width: 240px;
-    border-radius: 6.39176px;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
-  
-  .signup-button-content {
-    display: flex;
-    font-weight: 400;
-    font-size: 8px;
-    color: white;
-    gap: 5px;
-    justify-content: center;
-  }
-  
-  .signup-button-text {
-    padding-top: 2px;
-  }
-  
-  .signup-dates {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  
-  .date-title {
-    color: white;
-    font-weight: 700;
-    font-size: 14.5px;
-    margin-bottom: 5px;
-  }
-  
-  .date {
-    color: white;
-    font-weight: 400;
-    font-size: 14.5px;
-  }
-
-  .dottore-desktop {
-    display: none;
-  }
-
-  .about-container {
-    margin-left: 40px;
-  }
-
-  .about-container > p {
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .about-title {
-    font-size: 45px;
-    margin-bottom: 25px;
-    width: 60px;
-  }
-
-  .about-paragraph-one {
-    width: 310px;
-    font-weight: 400;
-    margin-bottom: 25px;
-  }
-
-  .about-paragraph-two {
-    width: 285px;
-    font-weight: 400;
-    margin-bottom: 10px;
-  }
-
-  .about-paragraph-three {
-    width: 315px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-
-  .about-paragraph-four {
-    width: 330px;
-  }
-
-  .gaming {
-    width: 150px;
-    position: absolute;
-    top: 110px;
-    left: 200px;
   }
 }
 
-
-
-
-
 @media screen and (min-width: 900px) {
+	.hamburger-menu-icon {
+		display: none;
+	}
 
+	.hamburger-menu-sidebar {
+		display: none;
+	}
 
-  .hamburger-menu-icon {
-    display: none;
-  }
+	.dottore-mobile {
+		display: none;
+	}
 
-  .hamburger-menu-sidebar {
-    display: none;
-  }
+	.dottore-desktop {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		cursor: pointer;
+	}
 
-  .dottore-mobile {
-    display: none;
-  }
+	.nav-items {
+		justify-content: left;
+		padding-left: 140px;
+	}
 
-  .dottore-desktop {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    cursor: pointer;
-  }  
+	.desktop-nav-bar {
+		display: flex;
+		gap: 65px;
+		font-size: 14px;
+		padding-left: 90px;
+		align-items: center;
+	}
 
-  .nav-items {
-    justify-content: left;
-    padding-left: 140px;
-  }
-
-  .desktop-nav-bar {
-    display: flex;
-    gap: 65px;
-    font-size: 14px;
-    padding-left: 90px;
-    align-items: center;
-  }
-
-
-
-  /* -------------------------
+	/* -------------------------
   ------- Card Styles -------- 
   ------------------------- */
 
-  .signup-dates {
-    display: flex;
-  }
+	.signup-dates {
+		display: flex;
+	}
 
-  .card {
-    width: 500px;
-    margin-top: 40px;
-    position: absolute;
-    left: 900px;
-    background: rgba(164, 171, 182, 0.04);
-    height: 720px;
-    border-radius: 16.851px;
-  }
-  
-  .card-container {
-    padding-top: 65px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-bottom: 115px;
-  }
-  
-  .card-header {
-    display: flex;
-    margin: 0 auto;
-  }
-  
-  .current-season {
-    color: #3EB4E7;
-    font-weight: 400;
-    font-size: 25px;
-    margin-top: 20px;
-  }
-  
-  .season-no {
-    color: white;
-    font-size: 45px;
-    font-weight: 700;
-  }
-  
-  .signup-status {
-    color: white;
-    font-size: 40px;
-    width: 250px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 35px;
-  }
+	.card {
+		width: 500px;
+		margin-top: 40px;
+		position: absolute;
+		left: 900px;
+		background: rgba(164, 171, 182, 0.04);
+		height: 720px;
+		border-radius: 16.851px;
+	}
 
-  .card-header-text {
-    padding-top: 27px;
-  }
-  
-  .signup-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #DE7A5B;
-    height: 60px;
-    width: 400px;
-    border-radius: 6.39176px;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    cursor: pointer;
-  }
-  
-  .signup-button-content {
-    display: flex;
-    font-weight: 600;
-    color: white;
-    gap: 7px;
-    justify-content: center;
-  }
+	.card-container {
+		padding-top: 65px;
+		padding-left: 45px;
+		padding-right: 45px;
+		padding-bottom: 115px;
+	}
 
-  .signup-logo {
-    width: 26px;
-    height: 21px;
-  }
-  
-  .signup-button-text {
-    padding-top: 1px;
-  }
-  
-  .signup-dates {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  
-  .date-title {
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
-    margin-bottom: 5px;
-  }
-  
-  .date {
-    color: white;
-    font-weight: 400;
-    font-size: 25px;
-  }
+	.card-header {
+		display: flex;
+		margin: 0 auto;
+	}
 
-  .nav-item:hover {
-    font-weight: 700;
-  }
+	.current-season {
+		color: #3eb4e7;
+		font-weight: 400;
+		font-size: 25px;
+		margin-top: 20px;
+	}
 
-  .nav-item > a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  /* -------------------------
+	.season-no {
+		color: white;
+		font-size: 45px;
+		font-weight: 700;
+	}
+
+	.signup-status {
+		color: white;
+		font-size: 40px;
+		width: 250px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 35px;
+	}
+
+	.card-header-text {
+		padding-top: 27px;
+	}
+
+	.signup-button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #de7a5b;
+		height: 60px;
+		width: 400px;
+		border-radius: 6.39176px;
+		margin-bottom: 20px;
+		margin-left: 15px;
+		cursor: pointer;
+	}
+
+	.signup-button-content {
+		display: flex;
+		font-weight: 600;
+		color: white;
+		gap: 7px;
+		justify-content: center;
+	}
+
+	.signup-logo {
+		width: 26px;
+		height: 21px;
+	}
+
+	.signup-button-text {
+		padding-top: 1px;
+	}
+
+	.signup-dates {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.date-title {
+		color: white;
+		font-weight: 700;
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+
+	.date {
+		color: white;
+		font-weight: 400;
+		font-size: 25px;
+	}
+
+	.nav-item:hover {
+		font-weight: 700;
+	}
+
+	.nav-item > a {
+		text-decoration: none;
+		color: white;
+	}
+
+	/* -------------------------
   ------- About Page -------- 
   ------------------------- */
 
-  .about-container {
-    margin-top: 190px;
-    margin-left: 150px;
-  }
+	.about-container {
+		margin-top: 190px;
+		margin-left: 150px;
+	}
 
-  .about-title {
-    font-size: 50px;
-    width: 335px;
-    margin-bottom: 30px;
-  }
+	.about-title {
+		font-size: 50px;
+		width: 335px;
+		margin-bottom: 30px;
+	}
 
-  .about-paragraph-one {
-    width: 420px;
-    margin-bottom: 20px;
-  }
+	.about-paragraph-one {
+		width: 420px;
+		margin-bottom: 20px;
+	}
 
-  .about-paragraph-two {
-    width: 855px;
-    margin-bottom: 20px;
-  }
+	.about-paragraph-two {
+		width: 855px;
+		margin-bottom: 20px;
+	}
 
-  .about-paragraph-three {
-    width: 840px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
+	.about-paragraph-three {
+		width: 840px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
 
-  .about-paragraph-four {
-    font-weight: 700;
-  }
+	.about-paragraph-four {
+		font-weight: 700;
+	}
 
-  .gaming {
-    position: absolute;
-    top: 150px;
-    left: 720px;
+	.gaming {
+		position: absolute;
+		top: 150px;
+		left: 720px;
+	}
+
+	/* -------------------------
+  ------- Tables -------- 
+  ------------------------- */
+	.table-container {
+		margin-left: 140px;
+		margin-right: 140px;
+	}
+
+  .season-header {
+    margin-left: 140px;
+    margin-top: 60px;
   }
 }
 
-
-
-
 .navbar {
-  color: white;
+	color: white;
 }
 
 .landing-page {
-  overflow: hidden;
-  overflow-x: hidden;
+	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .top-blue-header {
-  height: 5px;
-  width: 100%;
-  background-color: #3A7BBC;
+	height: 5px;
+	width: 100%;
+	background-color: #3a7bbc;
 }
 
-.vd2l-text-logo > a{
-  color: white;
-  text-decoration: none;
-  font-family: 'inter';
-  font-weight: 900;
-  font-size: 36px;
-  cursor: pointer;
+.vd2l-text-logo > a {
+	color: white;
+	text-decoration: none;
+	font-family: "inter";
+	font-weight: 900;
+	font-size: 36px;
+	cursor: pointer;
 }
 
 nav > p {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .nav-items {
-  padding-top: 28px;
-  padding-right: 28px;
-  padding-bottom: 23px;
-  display: flex;
-
+	padding-top: 28px;
+	padding-right: 28px;
+	padding-bottom: 23px;
+	display: flex;
 }
 
 .hamburger-menu-icon {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .hamburger-menu-sidebar {
-  position: fixed;
-  left: 60%;
-  top: 0;
-  width: 350px;
-  height: 100%;
-  background-color: #3A7BBC;
+	position: fixed;
+	left: 60%;
+	top: 0;
+	width: 350px;
+	height: 100%;
+	background-color: #3a7bbc;
 }
 
 .hamburger-menu-sidebar > nav {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-left: 50px;
 }
 
 .x-button {
-  font-size: 25px;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  cursor: pointer;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	cursor: pointer;
 }
 
 footer {
-  background: rgba(217, 217, 217, 0.17);
-  display: flex;
-  justify-content: center;
-  font-size: 11px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #151428;
+	background: rgba(217, 217, 217, 0.17);
+	display: flex;
+	justify-content: center;
+	font-size: 11px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #151428;
 }
 
 .nav-item > a {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .dottore-mobile {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
 }
 
 .red {
-  color: #FF3767;
+	color: #ff3767;
 }
 
 .about-title {
-  color: #85DDFA;
-  font-weight: 600;
+	color: #85ddfa;
+	font-weight: 600;
 }
 
 .about-container > p {
-  color: white;
+	color: white;
 }
 
 .discord {
-  text-decoration: underline;
-  color: #4159D9;
+	text-decoration: underline;
+	color: #4159d9;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+	border-radius: 17px;
+}
+
+.fancy-table {
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+	font-weight: 400;
+}
+
+.table-header {
+	background-color: #d9d9d9;
+}
+
+td {
+  background: rgba(164, 171, 182, 0.04);
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FF7777;
+}
+
+.statement {
+  font-size: 12px;
+}
+
+.season-nav {
+  display: flex;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  gap: 10px;
+}
+
+.season-tab {
+  font-weight: 400;
   cursor: pointer;
+}
+
+.season-tab:hover {
+  color: #FF6C3E;
+}
+
+.selected {
+  font-weight: 600;
+}
+
+.season-title {
+  font-weight: 600;
+  color: #85DDFA;
+  font-size: 50px;
+}
+
+.signup-button-table {
+  background-color: #FF6C3E;
+  width: 160px;
+  height: 40px;
+  border-radius: 9px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.signup-button-table-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.record {
+  text-align: center;
+}
+
+.signup-button-table-text {
+  margin-right: 7px;
+  font-weight: 600;
+}
+
+.signup-button-table-img {
+  width: 26px;
+}
+
+.season-header {
+  margin-bottom: 25px;
 }
