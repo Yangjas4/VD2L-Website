@@ -78,16 +78,6 @@ export default function Season() {
 					</thead>
 					<tbody>
 						<SignupRow
-							row="1"
-							name="Jason"
-							rank="Iron III"
-							statement="hello i am the best dottore is hot"
-						/>
-						<SignupRow
-							row="2"
-							name="Jason"
-							rank="Iron III"
-							statement="hello i am the best dottore is hot"
 						/>
 					</tbody>
 				</table>
@@ -104,10 +94,7 @@ export default function Season() {
                 </thead>
                 <tbody>
                     <TeamsRow 
-                        row="1"
-                        team="Dottoresimps666"
-                        captain="London"
-                        record="1-1"
+                        
                     />
                 </tbody>
             </table>
@@ -121,10 +108,6 @@ export default function Season() {
                     </tr>
                 </thead>
                 <tbody>
-                    <MatchupsRow 
-                        hometeam="home" 
-                        awayteam="away" 
-                    />
                 </tbody>
             </table>
 
