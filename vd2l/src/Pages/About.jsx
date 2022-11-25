@@ -18,8 +18,7 @@ export default function About() {
 					guidance from players of higher skill!
 				</p>
 				<p className="about-paragraph-two">
-					This league is targeted towards North American players in
-					the North American servers but feel free to join from other
+					This league is targeted towards North American players but feel free to join from other
 					regions if your ping allows for it!
 				</p>
 				<p className="about-paragraph-three">
