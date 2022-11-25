@@ -5,10 +5,15 @@ import Signup from "../assets/Signup.svg";
 import DottoreDesktop from "../assets/DottoreDesktop.svg";
 import DottoreMobile from "../assets/DottoreMobile.svg";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 export default function Landing() {
+
+	const [showDottore, setShowDottore] = useState(true);
+	const handleDottore = () => {
+		setShowDottore(false);
+	}
 
 	return (
 		<div className="landing-page">
@@ -64,11 +69,12 @@ export default function Landing() {
 					</div>
 				</motion.div>
 
-				<img
+				{showDottore && <img
 					src={DottoreMobile}
 					alt="Hero Picture"
 					className="dottore-mobile"
-				/>
+					onClick={handleDottore}
+				/>}
 				<img
 					src={DottoreDesktop}
 					alt="Hero Picture"
