@@ -1,4 +1,4 @@
-export default function SignupRow(props) {
+export default function TeamsRow(props) {
 	return (
 		<tr>
 			<td>{props.row}</td>

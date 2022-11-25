@@ -5,8 +5,14 @@ import Signup from "../assets/Signup.svg";
 import DottoreDesktop from "../assets/DottoreDesktop.svg";
 import DottoreMobile from "../assets/DottoreMobile.svg";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 export default function Landing() {
+
+	const click = () => {
+		alert("click");
+	}
+
 	return (
 		<div className="landing-page">
 			<Navbar />
@@ -33,7 +39,7 @@ export default function Landing() {
 								Signups are currently{" "}
 								<span className="red">CLOSED</span>
 							</h1>
-							<motion.div className="signup-button" whileHover={{ scale: 1.1 }}>
+							<motion.div className="signup-button" whileHover={{ scale: 1.1 }} onClick={click}>
 								<div className="signup-button-content">
 									<p className="signup-button-text">
 										Sign Up

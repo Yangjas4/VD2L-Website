@@ -2,6 +2,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import SignupRow from "../Components/SignupRow";
 import TeamsRow from "../Components/TeamsRow";
+import MatchupsRow from "../Components/MatchupsRow";
 import Signup from "../assets/Signup.svg";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -110,6 +111,23 @@ export default function Season() {
                     />
                 </tbody>
             </table>
+            </motion.div>}
+            {tabSelected === 3 && <motion.div className="table-container" initial={{opacity: 0}} animate={{opacity: 1}}>
+            <table className="styled-table">
+                <thead>
+                    <tr className="table-header">
+                        <th className="hometeam week-title">Week 0</th>
+                        <th className="awayteam"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <MatchupsRow 
+                        hometeam="home" 
+                        awayteam="away" 
+                    />
+                </tbody>
+            </table>
+
             </motion.div>}
 		</div>
 	);

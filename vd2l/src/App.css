@@ -64,7 +64,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #de7a5b;
+		background-color: #ff6c3e;
 		height: 35px;
 		width: 240px;
 		border-radius: 6.39176px;
@@ -153,15 +153,15 @@
 		left: 200px;
 	}
 
-  .table-container {
+	.table-container {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
 
-  .season-header {
-    margin-left: 20px;
-    margin-top: 20px;
-  }
+	.season-header {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -258,7 +258,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #de7a5b;
+		background-color: #ff6c3e;
 		height: 60px;
 		width: 400px;
 		border-radius: 6.39176px;
@@ -362,10 +362,10 @@
 		margin-right: 140px;
 	}
 
-  .season-header {
-    margin-left: 140px;
-    margin-top: 60px;
-  }
+	.season-header {
+		margin-left: 140px;
+		margin-top: 60px;
+	}
 }
 
 .navbar {
@@ -453,6 +453,9 @@ footer {
 	bottom: 0;
 	left: 0;
 	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 .red {
@@ -495,77 +498,89 @@ th {
 }
 
 td {
-  background: rgba(164, 171, 182, 0.04);
-  color: white;
-  font-size: 18px;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #FF7777;
+	background: rgba(164, 171, 182, 0.04);
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ff7777;
 }
 
 .statement {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 .season-nav {
-  display: flex;
-  color: white;
-  font-weight: 400;
-  font-size: 25px;
-  gap: 10px;
+	display: flex;
+	color: white;
+	font-weight: 400;
+	font-size: 25px;
+	gap: 10px;
 }
 
 .season-tab {
-  font-weight: 400;
-  cursor: pointer;
+	font-weight: 400;
+	cursor: pointer;
 }
 
 .season-tab:hover {
-  color: #FF6C3E;
+	color: #ff6c3e;
 }
 
 .selected {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .season-title {
-  font-weight: 600;
-  color: #85DDFA;
-  font-size: 50px;
+	font-weight: 600;
+	color: #85ddfa;
+	font-size: 50px;
 }
 
 .signup-button-table {
-  background-color: #FF6C3E;
-  width: 160px;
-  height: 40px;
-  border-radius: 9px;
-  margin-top: 20px;
-  cursor: pointer;
+	background-color: #ff6c3e;
+	width: 160px;
+	height: 40px;
+	border-radius: 9px;
+	margin-top: 20px;
+	cursor: pointer;
 }
 
 .signup-button-table-content {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 12px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 12px;
 }
 
 .record {
-  text-align: center;
+	text-align: center;
 }
 
 .signup-button-table-text {
-  margin-right: 7px;
-  font-weight: 600;
+	margin-right: 7px;
+	font-weight: 600;
 }
 
 .signup-button-table-img {
-  width: 26px;
+	width: 26px;
 }
 
 .season-header {
-  margin-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.hometeam {
+  text-align: left;
+}
+
+.week-title {
+  padding-left: 10px;
+}
+
+.awayteam {
+  text-align: right;
 }
