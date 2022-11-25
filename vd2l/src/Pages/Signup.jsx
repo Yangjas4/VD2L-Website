@@ -17,7 +17,7 @@ export default function Inhouse() {
 						</p>
 					</div>
 					<div className="discord-container">
-                        <p className="join-discord">Join us on Discord to find out when signups for next season open again! <br /><a className="discord" href="https://discord.gg/NKbdZxMEXd">
+                        <p className="join-discord">Join us on Discord to find out when signups for next season open! <br /><a className="discord" href="https://discord.gg/NKbdZxMEXd">
 						https://discord.gg/NKbdZxMEXd
 					</a></p>
                     </div>
