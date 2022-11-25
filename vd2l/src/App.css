@@ -574,13 +574,34 @@ td {
 }
 
 .hometeam {
-  text-align: left;
+	text-align: left;
 }
 
 .week-title {
-  padding-left: 10px;
+	padding-left: 10px;
 }
 
 .awayteam {
-  text-align: right;
+	text-align: right;
+}
+
+.signups-closed-container, .discord-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signups-closed {
+  margin-top: 200px;
+	color: red;
+	font-size: 40px;
+	font-weight: 700;
+  text-align: center;
+}
+
+.join-discord {
+  color: white;
+  text-align: center;
+  margin-left: 60px; 
+  margin-right: 60px;
 }

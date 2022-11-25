@@ -24,7 +24,7 @@ export default function Navbar() {
 					<p className="nav-item"><Link to="/about">About Us</Link></p>
 					<p className="nav-item"><Link to="/rules">Rules</Link></p>
 					<p className="nav-item"><Link to="/season">Season 0</Link></p>
-					<p className="nav-item"><Link to="/inhouse">Inhouse</Link></p>
+					<p className="nav-item"><Link to="/signup">Signups</Link></p>
 				</nav>
 				<img
 					src={Menu}
@@ -46,7 +46,7 @@ export default function Navbar() {
 							<p className="nav-item"><Link to="/about">About Us</Link></p>
 							<p className="nav-item"><Link to="/rules">Rules</Link></p>
 							<p className="nav-item"><Link to="/season">Season 0</Link></p>
-							<p className="nav-item"><Link to="/inhouse">Inhouse</Link></p>
+							<p className="nav-item"><Link to="/signup">Signups</Link></p>
 						</nav>
 					</motion.div>
 				)}
