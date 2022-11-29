@@ -12,6 +12,9 @@ export default function Admin() {
 
     return (
         <div className="admin-container">
+            <motion.div className="generate-matchups" whileHover={{scale: 1.1}}>
+                <p>toggle signups</p>
+            </motion.div>
             <motion.div className="generate-matchups" onClick={handleGenerate} whileHover={{scale: 1.1}}>
                 <p>generate matchups</p>
             </motion.div>

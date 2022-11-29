@@ -641,6 +641,7 @@ td {
 	padding: 20px;
 	border-radius: 17px;
 	cursor: pointer;
+	margin-bottom: 10px;
   }
 
   .matchups-generated-confirmation {
