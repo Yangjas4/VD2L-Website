@@ -4,14 +4,36 @@ import SignupRow from "../Components/SignupRow";
 import TeamsRow from "../Components/TeamsRow";
 import MatchupsRow from "../Components/MatchupsRow";
 import Signup from "../assets/Signup.svg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
+import colref from "../firebase";
+import { onSnapshot } from "firebase/firestore";
 
 export default function Season() {
 	
+	let playerData;
 	const [tabSelected, setTabSelected] = useState(1);
+	const [players, setPlayers] = useState([]);
+	const [finishedLoading, setFinishedLoading] = useState(false);
 
+	useEffect(() => {
+		getDocs(colRef)
+		.then(snapshot => {
+			playerData = snapshot.docs.map(doc => {
+				return {
+					...doc.data()
+				}
+			})
+			// const sortedLeaderboardData = leaderboardData.sort((a, b) => b.winstreak - a.winstreak);
+			// sortedLeaderboardData.splice(10);
+			setPlayers(playersData.map((player, index) => <LeaderboardName key={index} name={player.name} score={player.winstreak} rank={index + 1} />))
+			setFinishedLoading(true);
+		})
+		.catch(err => {
+			console.log(`%cError: ${err.message}`, "color:red");
+		})
+	}, []);
 
 	function toggleTab(tab) {
 		if (tab === 1) {
