@@ -28,7 +28,7 @@ export default function Season() {
 					...doc.data()
 				}
 			})
-			setPlayers(playerData.map((player, index) => <SignupRow key={index} row={index} name={player.ign} rank={ranks[player.rank-1]} statement={player.statement}/>))
+			setPlayers(playerData.map((player, index) => <SignupRow key={index} row={index+1} name={player.ign} rank={ranks[player.rank-1]} statement={player.statement}/>))
 		})
 		.catch(err => {
 			console.log(`%cError: ${err.message}`, "color:red");
@@ -42,7 +42,8 @@ export default function Season() {
 					...doc.data()
 				}
 			})
-			setTeams(teamsData.map((team, index) => <TeamsRow key={index} row={index} team={team.name} record={`${team.wins}-${team.losses}`} captain={team.captain}/>))
+			const sortedTeamsData = teamsData.sort((a, b) => b.wins - a.wins);
+			setTeams(sortedTeamsData.map((team, index) => <TeamsRow key={index} row={index+1} team={team.name} record={`${team.wins} - ${team.losses}`} captain={team.captain}/>))
 		})
 		.catch(err => {
 			console.log(`%cError: ${err.message}`, "color:red");
