@@ -27,4 +27,6 @@ initializeApp(firebaseConfig);
 const db = getFirestore();
 export const signupsRef = collection(db, 'signups');
 export const teamsRef = collection(db, 'teams');
+export const isOpenRef = collection(db, 'signups-status');
+export const scheduleRef = collection(db, 'schedule');
 
