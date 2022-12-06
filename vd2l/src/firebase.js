@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection } from "firebase/firestore";
+import { getFirestore, collection, doc } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 
@@ -27,6 +27,7 @@ initializeApp(firebaseConfig);
 const db = getFirestore();
 export const signupsRef = collection(db, 'signups');
 export const teamsRef = collection(db, 'teams');
-export const isOpenRef = collection(db, 'signups-status');
+export const isOpenDocRef = collection(db, 'signups-status');
+export const isOpenRef = doc(db, 'signups-status', 'KI397BUWUktuHKn1KSbu');
 export const scheduleRef = collection(db, 'schedule');
 
