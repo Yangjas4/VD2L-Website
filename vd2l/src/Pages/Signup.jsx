@@ -5,7 +5,8 @@ import { isOpenDocRef } from "../firebase";
 import { getDocs } from "firebase/firestore";
 
 export default function Inhouse() {
-	const [signupsOpen, setSignupsOpen] = useState(false);
+	const [isLoading, setIsLoading] = useState(true);
+	const [signupsOpen, setSignupsOpen] = useState(true);
 	let signupObj
 
 	useEffect(() => {
@@ -18,6 +19,7 @@ export default function Inhouse() {
 			})
             setSignupsOpen(signupObj[0].isOpen);
             console.log(signupsOpen);
+			setIsLoading(false);
 		})
 		.catch(err => {
 			console.log(`%cError: ${err.message}`, "color:red");
