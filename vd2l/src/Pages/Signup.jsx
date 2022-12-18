@@ -1,8 +1,30 @@
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import { useEffect, useState } from "react";
+import { isOpenDocRef } from "../firebase";
+import { getDocs } from "firebase/firestore";
 
 export default function Inhouse() {
-	const signupsOpen = false;
+	const [isLoading, setIsLoading] = useState(true);
+	const [signupsOpen, setSignupsOpen] = useState(true);
+	// let signupObj
+
+	// useEffect(() => {
+	// 	getDocs(isOpenDocRef)
+	// 	.then(snapshot => {
+	// 		signupObj = snapshot.docs.map(doc => {
+	// 			return {
+	// 				...doc.data()
+	// 			}
+	// 		})
+    //         setSignupsOpen(signupObj[0].isOpen);
+    //         console.log(signupsOpen);
+	// 		setIsLoading(false);
+	// 	})
+	// 	.catch(err => {
+	// 		console.log(`%cError: ${err.message}`, "color:red");
+	// 	})
+	// }, []);
 
 	return (
 		<div className="inhouse">
