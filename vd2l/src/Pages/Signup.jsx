@@ -6,7 +6,7 @@ import { getDocs } from "firebase/firestore";
 
 export default function Inhouse() {
 	const [isLoading, setIsLoading] = useState(true);
-	const [signupsOpen, setSignupsOpen] = useState(false);
+	const [signupsOpen, setSignupsOpen] = useState(true);
 	// let signupObj
 
 	// useEffect(() => {
