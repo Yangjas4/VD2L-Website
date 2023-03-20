@@ -45,11 +45,11 @@ export default function Inhouse() {
 		<div className="inhouse">
 			<Navbar />
 			{signupsOpen ? (
-				<>
+				<div className="signup-content">
 					<h1 className="season-title">Signups for Season 0</h1>
-					<form>
+					<form className="signup-form">
 						<div className="left-form">
-							<label for="ign">IGN</label>
+							<label for="ign">IGN (exp bob#NA1)</label>
 							<input 
 								type="text" 
 								id="ign"
@@ -113,7 +113,7 @@ export default function Inhouse() {
 
 						</div>
 					</form>
-				</>
+				</div>
 			) : (
 				<>
 					<div className="signups-closed-container">

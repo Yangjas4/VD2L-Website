@@ -162,6 +162,29 @@
 		margin-left: 20px;
 		margin-top: 20px;
 	}
+/*signup form */
+	 .signup-form {
+		display: flex;
+		gap: 20px;
+	}
+
+	.left-form {
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+	}
+
+	.right-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.signup-content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+
 }
 
 @media screen and (min-width: 900px) {
@@ -363,6 +386,28 @@
 	}
 
 	.season-header {
+		margin-left: 140px;
+		margin-top: 60px;
+	}
+
+	.signup-form {
+		margin-top: 25px;
+		display: flex;
+		gap: 30px;
+	}
+
+	.left-form {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.right-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.signup-content {
 		margin-left: 140px;
 		margin-top: 60px;
 	}
@@ -586,56 +631,57 @@ td {
 	text-align: right;
 }
 
-.signups-closed-container, .discord-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.signups-closed-container,
+.discord-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .signups-closed {
-  margin-top: 200px;
+	margin-top: 200px;
 	color: #ff3767;
 	font-size: 40px;
 	font-weight: 700;
-  text-align: center;
+	text-align: center;
 }
 
 .join-discord {
-  color: white;
-  text-align: center;
-  margin-left: 60px; 
-  margin-right: 60px;
+	color: white;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 .signup-button-text {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-.signup-button > a{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-
-.signup-button-table > a{
+.signup-button > a {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-  }
+}
 
-  .admin-container {
+.signup-button-table > a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.admin-container {
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-top: 200px;
-  }
+}
 
-  .generate-matchups {
+.generate-matchups {
 	color: black;
 	background-color: orange;
 	width: 200px;
@@ -643,9 +689,34 @@ td {
 	border-radius: 17px;
 	cursor: pointer;
 	margin-bottom: 10px;
-  }
+}
 
-  .matchups-generated-confirmation {
+.matchups-generated-confirmation {
 	margin-top: 5px;
 	color: white;
-  }
+}
+
+/* signup form */
+.signup-form {
+	display: flex;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.left-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#ign { 
+	border-radius: 10px;
+	height: 35px;
+	padding-left: 10px;
+	margin-top: 5px;
+}
