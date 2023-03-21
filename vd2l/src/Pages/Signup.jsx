@@ -2,9 +2,10 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { useEffect, useState } from "react";
 import { isOpenDocRef } from "../firebase";
-import { getDocs } from "firebase/firestore";
+import { getDocs, setDoc, doc } from "firebase/firestore";
 import { useFormik, Field } from "formik";
 import { motion } from "framer-motion";
+import { db } from "../firebase";
 
 export default function Inhouse() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +23,14 @@ export default function Inhouse() {
 			rank: 0,
 		},
 		onSubmit: values => {
-			alert(JSON.stringify(values, null, 2))
+			
+			setDoc(doc(db, "signups", values.ign), values) 
+			.then( () => {
+                alert(JSON.stringify(values, null, 2));
+            })
+            .catch(error => {
+                console.log(error);
+            })
 		}
 	});
 
