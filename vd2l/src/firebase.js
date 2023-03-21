@@ -24,10 +24,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 initializeApp(firebaseConfig);
-const db = getFirestore();
+export const db = getFirestore();
 export const signupsRef = collection(db, 'signups');
 export const teamsRef = collection(db, 'teams');
 export const isOpenDocRef = collection(db, 'signups-status');
 export const isOpenRef = doc(db, 'signups-status', 'KI397BUWUktuHKn1KSbu');
 export const scheduleRef = collection(db, 'schedule');
+
 

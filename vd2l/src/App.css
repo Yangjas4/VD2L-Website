@@ -162,6 +162,27 @@
 		margin-left: 20px;
 		margin-top: 20px;
 	}
+	/*signup form */
+	.signup-form {
+		display: flex;
+		gap: 20px;
+	}
+
+	.left-form {
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+	}
+
+	.right-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.signup-content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -365,6 +386,32 @@
 	.season-header {
 		margin-left: 140px;
 		margin-top: 60px;
+	}
+
+	.signup-form {
+		margin-top: 25px;
+		display: flex;
+		gap: 30px;
+	}
+
+	.left-form {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.right-form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.signup-content {
+		margin-left: 140px;
+		margin-top: 60px;
+	}
+
+	.signup-complete-container {
+		margin-left: 140px;
 	}
 }
 
@@ -586,56 +633,57 @@ td {
 	text-align: right;
 }
 
-.signups-closed-container, .discord-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.signups-closed-container,
+.discord-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .signups-closed {
-  margin-top: 200px;
+	margin-top: 200px;
 	color: #ff3767;
 	font-size: 40px;
 	font-weight: 700;
-  text-align: center;
+	text-align: center;
 }
 
 .join-discord {
-  color: white;
-  text-align: center;
-  margin-left: 60px; 
-  margin-right: 60px;
+	color: white;
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 .signup-button-text {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-.signup-button > a{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-
-.signup-button-table > a{
+.signup-button > a {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-  }
+}
 
-  .admin-container {
+.signup-button-table > a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.admin-container {
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-top: 200px;
-  }
+}
 
-  .generate-matchups {
+.generate-matchups {
 	color: black;
 	background-color: orange;
 	width: 200px;
@@ -643,9 +691,142 @@ td {
 	border-radius: 17px;
 	cursor: pointer;
 	margin-bottom: 10px;
-  }
+}
 
-  .matchups-generated-confirmation {
+.matchups-generated-confirmation {
 	margin-top: 5px;
 	color: white;
-  }
+}
+
+/* signup form */
+.signup-form {
+	display: flex;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.left-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#ign {
+	border-radius: 10px;
+	height: 35px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.capt-container {
+	display: flex;
+	gap: 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.capt-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.capt-labels {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+textarea {
+	font-size: 12px;
+	height: 130px;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#rank {
+	width: 110px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+#tracker {
+	height: 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+.roles-labels {
+	display: flex;
+	gap: 28px;
+	padding-left: 80px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.roles-container {
+	display: flex;
+	gap: 6px;
+	margin-bottom: 10px;
+}
+
+.roles {
+	display: flex;
+	flex-direction: column;
+	gap: 1px;
+}
+
+.roles-radio {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.radios {
+	display: flex;
+	gap: 22px;
+}
+
+#tracker {
+	margin-top: 3px;
+}
+
+#current-rank-label {
+	margin-top: 10px;
+}
+
+select {
+	margin-top: 3px;
+}
+
+#submit-signup {
+	background: #5e5bff;
+	border: 1px solid #5e5bff;
+	border-radius: 5px;
+	width: 79px;
+	height: 40px;
+	color: white;
+	font-weight: 600;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.signupdone-title {
+	font-size: 45px;
+	font-weight: 600;
+	color: #85ddfa;
+}
+
+.signupdone-text {
+	color: white;
+}
+
