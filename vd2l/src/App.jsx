@@ -7,6 +7,7 @@ import Season from './Pages/Season';
 import Signup from './Pages/Signup';
 import Rules from './Pages/Rules';
 import Admin from './Pages/Admin';
+import SignupDone from './Pages/SignupDone'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/season" element={<Season />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/signupDone" element={<SignupDone />} />
           </Routes>
       </BrowserRouter>
     </div>

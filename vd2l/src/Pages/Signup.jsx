@@ -26,7 +26,7 @@ export default function Inhouse() {
 			
 			setDoc(doc(db, "signups", values.ign), values) 
 			.then( () => {
-                alert(JSON.stringify(values, null, 2));
+				location.replace("/signupDone");
             })
             .catch(error => {
                 console.log(error);
@@ -34,24 +34,24 @@ export default function Inhouse() {
 		}
 	});
 
-	// let signupObj
+	let signupObj
 
-	// useEffect(() => {
-	// 	getDocs(isOpenDocRef)
-	// 	.then(snapshot => {
-	// 		signupObj = snapshot.docs.map(doc => {
-	// 			return {
-	// 				...doc.data()
-	// 			}
-	// 		})
-	//         setSignupsOpen(signupObj[0].isOpen);
-	//         console.log(signupsOpen);
-	// 		setIsLoading(false);
-	// 	})
-	// 	.catch(err => {
-	// 		console.log(`%cError: ${err.message}`, "color:red");
-	// 	})
-	// }, []);
+	useEffect(() => {
+		getDocs(isOpenDocRef)
+		.then(snapshot => {
+			signupObj = snapshot.docs.map(doc => {
+				return {
+					...doc.data()
+				}
+			})
+	        setSignupsOpen(signupObj[0].isOpen);
+	        console.log(signupsOpen);
+			setIsLoading(false);
+		})
+		.catch(err => {
+			console.log(`%cError: ${err.message}`, "color:red");
+		})
+	}, []);
 
 	return (
 		<div className="inhouse">

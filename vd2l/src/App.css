@@ -409,6 +409,10 @@
 		margin-left: 140px;
 		margin-top: 60px;
 	}
+
+	.signup-complete-container {
+		margin-left: 140px;
+	}
 }
 
 .navbar {
@@ -815,3 +819,14 @@ select {
 	margin-top: 30px;
 	cursor: pointer;
 }
+
+.signupdone-title {
+	font-size: 45px;
+	font-weight: 600;
+	color: #85ddfa;
+}
+
+.signupdone-text {
+	color: white;
+}
+
