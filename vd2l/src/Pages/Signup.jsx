@@ -12,7 +12,7 @@ export default function Inhouse() {
 	const formik = useFormik({
 		initialValues: {
 			ign: "",
-			captain: 1,
+			captain: "Yes",
 			statement: "",
 			controller: 5,
 			duelist: 5,
@@ -62,6 +62,7 @@ export default function Inhouse() {
 									placeholder="Bob#NA1"
 									onChange={formik.handleChange}
 									value={formik.values.ign}
+									required
 								/>
 								<label>
 									Sign up as Captain? (Player Drafter)
@@ -74,6 +75,7 @@ export default function Inhouse() {
 											name="captain"
 											value="Yes"
 											onChange={formik.handleChange}
+											required
 										/>
 										<input
 											type="radio"
@@ -81,6 +83,7 @@ export default function Inhouse() {
 											name="captain"
 											value="No"
 											onChange={formik.handleChange}
+											required
 										/>
 										<input
 											type="radio"
@@ -88,6 +91,7 @@ export default function Inhouse() {
 											name="captain"
 											onChange={formik.handleChange}
 											value="Maybe"
+											required
 										/>
 									</div>
 									<div className="capt-labels">
@@ -134,6 +138,7 @@ export default function Inhouse() {
 												name="duelist"
 												value="1"
 												onChange={formik.handleChange}
+												required
 											/>
 											<input
 												type="radio"
@@ -171,6 +176,7 @@ export default function Inhouse() {
 												name="controller"
 												value="1"
 												onChange={formik.handleChange}
+												required
 											/>
 											<input
 												type="radio"
@@ -208,6 +214,7 @@ export default function Inhouse() {
 												name="sentinel"
 												value="1"
 												onChange={formik.handleChange}
+												required
 											/>
 											<input
 												type="radio"
@@ -245,6 +252,7 @@ export default function Inhouse() {
 												name="initiator"
 												value="1"
 												onChange={formik.handleChange}
+												required
 											/>
 											<input
 												type="radio"
@@ -286,6 +294,7 @@ export default function Inhouse() {
 									placedholder="https://tracker.gg/valorant/profile/riot/bob%213i09NA1"
 									onChange={formik.handleChange}
 									value={formik.values.tracker}
+									required
 								/>
 
 								<label for="rank" id="current-rank-label">
