@@ -7,13 +7,34 @@ import DottoreMobile from "../assets/DottoreMobile.svg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { doc, getDocs } from "firebase/firestore";
+import { isOpenDocRef } from "../firebase";
 
 export default function Landing() {
 
 	const [showDottore, setShowDottore] = useState(true);
+	const [signupsOpen, setSignupsOpen] = useState(null); 
 	const handleDottore = () => {
 		setShowDottore(false);
 	}
+
+	let signupObj;
+
+	useEffect(() => {
+		getDocs(isOpenDocRef)
+		.then(snapshot => {
+			signupObj = snapshot.docs.map(doc => {
+				return {
+					...doc.data()
+				}
+			})
+	        setSignupsOpen(signupObj[0].isOpen);
+	        console.log(signupsOpen);
+		})
+		.catch(err => {
+			console.log(`%cError: ${err.message}`, "color:red");
+		})
+	}, []);
 
 	return (
 		<div className="landing-page">
@@ -39,7 +60,7 @@ export default function Landing() {
 						<div className="card-body">
 							<h1 className="signup-status">
 								Signups are currently{" "}
-								<span className="red">CLOSED</span>
+								{signupsOpen ? <span className="blue">OPEN</span> : <span className="red">CLOSED</span>}
 							</h1>
 							<motion.div className="signup-button" whileHover={{ scale: 1.1 }}>
 								<Link to="/signup">

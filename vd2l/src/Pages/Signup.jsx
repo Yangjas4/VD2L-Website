@@ -9,7 +9,7 @@ import { db } from "../firebase";
 
 export default function Inhouse() {
 	const [isLoading, setIsLoading] = useState(true);
-	const [signupsOpen, setSignupsOpen] = useState(true);
+	const [signupsOpen, setSignupsOpen] = useState(null);
 	const formik = useFormik({
 		initialValues: {
 			ign: "",
