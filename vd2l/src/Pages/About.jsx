@@ -10,16 +10,12 @@ export default function About() {
 			<div className="about-container">
 				<h1 className="about-title">About VD2L!</h1>
 				<p className="about-paragraph-one">
-					VD2L is a recreational Valorant league aimed for players
-					around low to midskill level (from iron to diamond) to give
-					players an oppourtunity to play in a more competitive
-					setting as well as to foster a community of low to mid skill
-					Valorant players who can look to improve together with
-					guidance from players of higher skill!
+				VD2L is a recreational Valorant league aimed at players of low to mid-skill levels, 
+				from Iron to Diamond. Our goal is to provide a competitive environment for players to 
+				improve their skill while learning and having fun at the same time. 
 				</p>
 				<p className="about-paragraph-two">
-					This league is targeted towards North American players but feel free to join from other
-					regions if your ping allows for it!
+				Our league is open to players from North America and other regions, provided they can maintain a stable connection. 
 				</p>
 				<p className="about-paragraph-three">
 					Our primary method of communication is through Discord. We
