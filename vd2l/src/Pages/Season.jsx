@@ -168,8 +168,7 @@ export default function Season() {
 								<th className="awayteam"></th>
 							</tr>
 						</thead>
-						<tbody>
-						</tbody>
+						<tbody>  {/*teams*/}  </tbody>
 					</table>
 				</motion.div>
 			)}
