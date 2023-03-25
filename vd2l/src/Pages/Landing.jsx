@@ -79,11 +79,11 @@ export default function Landing() {
 							<div className="signup-dates">
 								<div className="start-date">
 									<div className="date-title">Start Date</div>
-									<div className="date">TBD</div>
+									<div className="date">March 24</div>
 								</div>
 								<div className="end-date">
 									<div className="date-title">End Date</div>
-									<div className="date">TBD</div>
+									<div className="date">April 9 2023</div>
 								</div>
 							</div>
 						</div>

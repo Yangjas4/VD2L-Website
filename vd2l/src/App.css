@@ -113,6 +113,10 @@
 		margin-left: 40px;
 	}
 
+	.rules {
+		margin-left: 40px;
+	}
+
 	.about-container > p {
 		font-size: 12px;
 		text-align: center;
@@ -340,6 +344,11 @@
 
 	.about-container {
 		margin-top: 190px;
+		margin-left: 150px;
+	}
+
+	.rules {
+		margin-top: 50px;
 		margin-left: 150px;
 	}
 
@@ -834,3 +843,21 @@ select {
 	color: white;
 }
 
+.rules {
+	color: white;
+	max-width: 1500px;
+}
+
+.rules-title {
+	margin-bottom: 20px;
+	color: #3eb4e7;
+}
+
+.rules > li {
+	font-size: 12px;;
+}
+
+.rules > h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}

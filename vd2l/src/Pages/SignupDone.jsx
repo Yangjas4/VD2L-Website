@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 
 export default function SignupDone() {
 	return (
-		<div className="rules">
+		<>
 			<Navbar />
 			<div className="signup-complete-container">
 				<p className="signupdone-title">Thanks for signing up!</p>
@@ -15,6 +15,6 @@ export default function SignupDone() {
 				</p>
 			</div>
 			<Footer />
-		</div>
+		</>
 	);
 }
