@@ -169,7 +169,6 @@ export default function Season() {
 							</tr>
 						</thead>
 						<tbody>
-							<MatchupsRow hometeam = "hi" awayteam="bye"/>
 						</tbody>
 					</table>
 				</motion.div>
