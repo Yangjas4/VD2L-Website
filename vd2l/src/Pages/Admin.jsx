@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion";
 import { isOpenDocRef, isOpenRef } from "../firebase";
 import { getDocs, updateDoc } from "firebase/firestore";
+import swissPairing from "swiss-pairing";
 export default function Admin() {
 
     let newStatus;
@@ -12,6 +13,7 @@ export default function Admin() {
         if (generatedMessage === false) {
             setGeneratedMessage(true);
         }
+        const twoPerRound = require('swiss-pairing')({maxPerRound: 2})
     }
 
     useEffect(() => {
