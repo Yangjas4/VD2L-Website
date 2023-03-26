@@ -14,6 +14,9 @@ export default function Admin() {
             setGeneratedMessage(true);
         }
         const twoPerRound = require('swiss-pairing')({maxPerRound: 2})
+        const even = {
+            
+        }
     }
 
     useEffect(() => {
