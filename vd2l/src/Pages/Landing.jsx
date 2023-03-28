@@ -78,12 +78,12 @@ export default function Landing() {
 							</motion.div>
 							<div className="signup-dates">
 								<div className="start-date">
-									<div className="date-title">Start Date</div>
-									<div className="date">March 24</div>
+									<div className="date-title">Season Start</div>
+									<div className="date">April 26</div>
 								</div>
 								<div className="end-date">
-									<div className="date-title">End Date</div>
-									<div className="date">April 9 2023</div>
+									<div className="date-title">Season End</div>
+									<div className="date">June 28 2023</div>
 								</div>
 							</div>
 						</div>
