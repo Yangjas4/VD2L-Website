@@ -21,6 +21,7 @@ export default function Inhouse() {
 			initiator: 5,
 			tracker: "",
 			rank: 0,
+			discord: "",
 		},
 		onSubmit: values => {
 			
@@ -45,7 +46,6 @@ export default function Inhouse() {
 				}
 			})
 	        setSignupsOpen(signupObj[0].isOpen);
-	        console.log(signupsOpen);
 			setIsLoading(false);
 		})
 		.catch(err => {
@@ -299,7 +299,6 @@ export default function Inhouse() {
 									type="text"
 									id="tracker"
 									name="tracker"
-									placedholder="https://tracker.gg/valorant/profile/riot/bob%213i09NA1"
 									onChange={formik.handleChange}
 									value={formik.values.tracker}
 									required
@@ -325,6 +324,17 @@ export default function Inhouse() {
 									<option value="14">Plat 2</option>
 									<option value="15">Plat 3</option>
 								</select>
+
+								<label for="discord" id ="discord-label">Discord Username (Exp. Dottore#1234)</label>
+								<input
+									type="text"
+									id="ign"
+									name="discord"
+									placeholder="Dottore#1234"
+									onChange={formik.handleChange}
+									value={formik.values.discord}
+									required
+								/>
 							</div>
 						</div>
 						<motion.button
@@ -357,7 +367,6 @@ export default function Inhouse() {
 					</div>
 				</>
 			)}
-			<Footer />
 		</div>
 	);
 }

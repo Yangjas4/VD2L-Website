@@ -778,6 +778,12 @@ textarea {
 	padding-left: 5px;
 }
 
+
+
+#discord-label {
+	margin-top: 20px;
+}
+
 .roles-labels {
 	display: flex;
 	gap: 28px;
