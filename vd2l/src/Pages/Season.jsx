@@ -43,7 +43,7 @@ export default function Season() {
 				}
 			})
 			const sortedTeamsData = teamsData.sort((a, b) => b.wins - a.wins);
-			setTeams(sortedTeamsData.map((team, index) => <TeamsRow key={index} row={index+1} team={team.name} record={`${team.wins} - ${team.losses}`} captain={team.captain}/>))
+			setTeams(sortedTeamsData.map((team, index) => <TeamsRow key={index} row={index+1} team={team.name} record={`${team.wins} - ${team.losses}`} captain={team.captain} logo={team.logo} />))
 		})
 		.catch(err => {
 			console.log(`%cError: ${err.message}`, "color:red");
@@ -146,7 +146,7 @@ export default function Season() {
 								<th></th>
 								<th>Name</th>
 								<th>Captain</th>
-								<th>Record</th>
+								<th>Record ( W - L )</th>
 							</tr>
 						</thead>
 						<tbody>

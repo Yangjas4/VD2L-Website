@@ -617,6 +617,29 @@ td {
 	font-size: 12px;
 }
 
+.small-row {
+	width: 50px;
+}
+
+.teamLogo {
+	height: 50px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+
+.big-row {
+	width: 600px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #85ddfa;
+}
+
+.med-row {
+	width: 200px;
+	font-size: 13px;
+}
+
 .record {
 	text-align: center;
 }

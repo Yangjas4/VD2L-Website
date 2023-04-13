@@ -40,7 +40,6 @@ export default function Landing() {
 		<div className="landing-page">
 			<Navbar />
 			<div className="content-container">
-
 				<motion.div className="card" initial={{ x: -1000 }} animate={{ x:0 }} transition={{ duration: .5, type: "spring", bounce: .3}}> 
 					<div className="card-container">
 						<div className="card-header">
