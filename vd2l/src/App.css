@@ -664,6 +664,9 @@ td {
 .week-title {
 	padding-left: 10px;
 }
+.matchup {
+	margin-bottom: 30px;
+}
 
 .awayteam {
 	text-align: right;
