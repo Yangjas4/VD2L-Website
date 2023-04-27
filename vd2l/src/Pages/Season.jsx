@@ -286,7 +286,7 @@ export default function Season() {
 						</tbody>
 					</table>
 					
-					{/*------------------------------------------ WEEK 2 ---------------------------------------------------------------------*
+					
 					<table className="styled-table matchup">
 						<thead>
 							<tr className="table-header">
@@ -375,7 +375,7 @@ export default function Season() {
 						</tbody>
 					</table>
 
-					------------------------------------------ WEEK 3 ---------------------------------------------------------------------
+					{/*------------------------------------------ WEEK 3 ---------------------------------------------------------------------
 					<table className="styled-table matchup">
 						<thead>
 							<tr className="table-header">
