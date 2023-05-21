@@ -394,7 +394,7 @@ export default function Season() {
 										teamInfo[5].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">2 - 0</td>
 								<td className="awayteam">
 									{teamInfo[7].name +
 										" (" +
@@ -413,7 +413,7 @@ export default function Season() {
 										teamInfo[0].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">2 - 0</td>
 								<td className="awayteam">
 									{teamInfo[6].name +
 										" (" +
@@ -432,7 +432,7 @@ export default function Season() {
 										teamInfo[3].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">0 - 2</td>
 								<td className="awayteam">
 									{teamInfo[1].name +
 										" (" +
@@ -464,7 +464,7 @@ export default function Season() {
 						</tbody>
 					</table>
 
-					{/*------------------------------------------ WEEK 4 ---------------------------------------------------------------------}
+					
 					<table className="styled-table matchup">
 						<thead>
 							<tr className="table-header">
@@ -485,21 +485,21 @@ export default function Season() {
 								</td>
 								<td className="score">0 - 0</td>
 								<td className="awayteam">
-									{teamInfo[3].name +
+									{teamInfo[2].name +
 										" (" +
-										teamInfo[3].wins +
+										teamInfo[2].wins +
 										" - " +
-										teamInfo[3].losses +
+										teamInfo[2].losses +
 										")"}
 								</td>
 							</tr>
 							<tr>
 								<td className="hometeam">
-									{teamInfo[1].name +
+									{teamInfo[5].name +
 										" (" +
-										teamInfo[1].wins +
+										teamInfo[5].wins +
 										" - " +
-										teamInfo[1].losses +
+										teamInfo[5].losses +
 										")"}
 								</td>
 								<td className="score">0 - 0</td>
@@ -514,25 +514,15 @@ export default function Season() {
 							</tr>
 							<tr>
 								<td className="hometeam">
-									{teamInfo[2].name +
+									{teamInfo[1].name +
 										" (" +
-										teamInfo[2].wins +
+										teamInfo[1].wins +
 										" - " +
-										teamInfo[2].losses +
+										teamInfo[1].losses +
 										")"}
 								</td>
 								<td className="score">0 - 0</td>
 								<td className="awayteam">
-									{teamInfo[4].name +
-										" (" +
-										teamInfo[4].wins +
-										" - " +
-										teamInfo[4].losses +
-										")"}
-								</td>
-							</tr>
-							<tr>
-								<td className="hometeam">
 									{teamInfo[0].name +
 										" (" +
 										teamInfo[0].wins +
@@ -540,13 +530,23 @@ export default function Season() {
 										teamInfo[0].losses +
 										")"}
 								</td>
+							</tr>
+							<tr>
+								<td className="hometeam">
+									{teamInfo[4].name +
+										" (" +
+										teamInfo[4].wins +
+										" - " +
+										teamInfo[4].losses +
+										")"}
+								</td>
 								<td className="score">0 - 0</td>
 								<td className="awayteam">
-									{teamInfo[5].name +
+									{teamInfo[3].name +
 										" (" +
-										teamInfo[5].wins +
+										teamInfo[3].wins +
 										" - " +
-										teamInfo[5].losses +
+										teamInfo[3].losses +
 										")"}
 								</td>
 							</tr>
