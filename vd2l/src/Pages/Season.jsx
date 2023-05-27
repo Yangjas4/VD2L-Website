@@ -17,9 +17,9 @@ export default function Season() {
 	let potatoes = 2;
 	let ethn = 3;
 	let mack = 4;
-	let issac = 5;
-	let mazi = 6;
-	let crim = 7;
+	let issac = 6;
+	let mazi = 7;
+	let crim = 5;
 	let playerData;
 	let teamsData;
 	const [tabSelected, setTabSelected] = useState(1);
@@ -579,7 +579,7 @@ export default function Season() {
 										teamInfo[mack].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">0 - 2</td>
 								<td className="awayteam">
 									{teamInfo[fluke].name +
 										" (" +
@@ -598,7 +598,7 @@ export default function Season() {
 										teamInfo[potatoes].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">1 - 1</td>
 								<td className="awayteam">
 									{teamInfo[ethn].name +
 										" (" +
@@ -617,7 +617,7 @@ export default function Season() {
 										teamInfo[mazi].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">0 - 2</td>
 								<td className="awayteam">
 									{teamInfo[crim].name +
 										" (" +
@@ -636,7 +636,7 @@ export default function Season() {
 										teamInfo[dylan].losses +
 										")"}
 								</td>
-								<td className="score">0 - 0</td>
+								<td className="score">2 - 0</td>
 								<td className="awayteam">
 									{teamInfo[issac].name +
 										" (" +
@@ -649,7 +649,6 @@ export default function Season() {
 						</tbody>
 					</table>
 
-					{/*------------------------------------------ WEEK 6 ---------------------------------------------------------------------}
 
 					<table className="styled-table matchup">
 						<thead>
